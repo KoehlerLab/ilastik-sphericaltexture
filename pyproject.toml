@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sphericaltexture_plugin"
-version = "0.0.2"
+version = "0.0.3"
 authors = [{name="Oane Gros", email="oane.gros@embl.de" }]
 description = "Maps each object to a sphere/circle by mean intensity projection, and quantifies the distribution of the intensity signal in the projection through Spherical Harmonics/Fourier decomposition, or exposes polarization direction."
 readme = "README.md"
