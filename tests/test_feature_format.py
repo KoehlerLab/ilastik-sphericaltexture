@@ -137,7 +137,7 @@ class TestGlobalFeatureFormat:
 
         rnd_feature_names = random.sample(list(available.keys()), k=min(len(available) - 1, 3))
 
-        props = feature_plugin.fill_properties({k: available[k] for k in rnd_feature_names})
+        props = feature_plugin.fill_properties({k: {} for k in rnd_feature_names})
 
         assert len(props) == len(rnd_feature_names)
 
